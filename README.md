@@ -40,7 +40,8 @@
 1. Copy paste the above command on each node and run
 2. The nodes will join the swarm and eventually become the worker nodes.
 
-Commands to run the swarm
+## Commands to run the swarm
+
 curl -fsSL https://get.docker.com -o install-docker.sh
 
 sh install-docker.sh --dry-run
