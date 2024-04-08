@@ -42,25 +42,25 @@
 
 ## Commands to run the swarm
 
-curl -fsSL https://get.docker.com -o install-docker.sh
+1. curl -fsSL https://get.docker.com -o install-docker.sh
 
-sh install-docker.sh --dry-run
+2. sh install-docker.sh --dry-run
 
-sudo sh install-docker.sh
+3. sudo sh install-docker.sh
 
-sudo docker info | less
+4. sudo docker info | less
 
-sudo docker swarm init --advertise-addr <public ip address>
+5. sudo docker swarm init --advertise-addr <public ip address>
 
 
-docker swarm join --token <token> <ip address>
-To leave the swarm -  sudo docker swarm leave
+6. docker swarm join --token <token> <ip address>
+7. To leave the swarm -  sudo docker swarm leave
 
 //Type the following commands in the Leader cmd
-To check the nodes within the swarm ---
+8. To check the nodes within the swarm ---
  sudo docker node ls
 
-To make the node1 the manager -- 
+9. To make the node1 the manager -- 
 sudo docker node update --role manager <Hostname ip-address of node1>
 
 To make the node2 the manager -- 
