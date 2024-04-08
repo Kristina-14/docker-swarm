@@ -4,9 +4,9 @@
 
 ## Important Documentations
 
-https://get.docker.com/
-https://www.cloudping.info/
-https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Instances:v=3;$case=tags:true%5C,client:false;$regex=tags:false%5C,client:false
+1. https://get.docker.com/
+2. https://www.cloudping.info/
+3. https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Instances:v=3;$case=tags:true%5C,client:false;$regex=tags:false%5C,client:false
 
 ## Steps to create a docker swarm on AWS
 
